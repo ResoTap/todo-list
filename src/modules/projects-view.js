@@ -69,4 +69,9 @@ function makeNewProject() {
   buttonCon.appendChild(prioBtn);
   buttonCon.appendChild(completeBtn);
   buttonCon.appendChild(deleteBtn);
+
+  editBtn.textContent = "Edit";
+  prioBtn.textContent = "Priority";
+  completeBtn.textContent = "Complete";
+  deleteBtn.textContent = "Delete";
 }
