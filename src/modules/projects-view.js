@@ -37,6 +37,8 @@ function makeFooter() {
 
   content.appendChild(footerCon);
   footerCon.appendChild(footerContent);
+
+  footerContent.textContent = "https://github.com/ResoTap";
 }
 
 function makeNewProject() {
