@@ -23,4 +23,4 @@ Task 6:
 An array needs to be created to hold the project objects.
 
 Task 7:
-When completed projects will just toggle to completed or not, and then depending on which is toggled they will move to a different place in the DOM but still reside within the same array. Tasks could their own object within the project object that handles whether they have been marked as complete and their priority.
+When completed projects will just toggle to completed or not, and then depending on which is toggled they will move to a different place in the DOM but still reside within the same array. Tasks could be their own object within the project object that handles whether they have been marked as complete and their priority.
