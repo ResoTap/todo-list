@@ -1,8 +1,17 @@
-export { makeProject };
+export { makeProject, projectsArray };
+
+const projectsArray = [];
 
 function makeProject(title) {
-  const project = {
-    title: title,
+  const tasks = [];
+  return {
+    title,
+    priority,
+    tasks,
+    addTask(task) {
+      tasks.push(task);
+    },
   };
-  return project;
 }
+console.log(makeProject("poop"));
+console.log(makeProject("pee"));
