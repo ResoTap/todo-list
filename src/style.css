@@ -1,0 +1,11 @@
+.header {
+  grid-area: header;
+}
+
+.projectContentCon {
+  grid-area: content;
+}
+
+.footerCon {
+  grid-area: footer;
+}
