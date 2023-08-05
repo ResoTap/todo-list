@@ -1,5 +1,6 @@
-import content from "../index.js";
 export { makeHeader, makeProjectContent, makeFooter, makeNewProject };
+
+export const content = document.createElement("div");
 
 function makeHeader() {
   const header = document.createElement("div");

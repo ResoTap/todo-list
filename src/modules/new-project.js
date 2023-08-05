@@ -6,7 +6,6 @@ function makeProject(title) {
   const tasks = [];
   return {
     title,
-    priority,
     tasks,
     addTask(task) {
       tasks.push(task);
