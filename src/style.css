@@ -9,3 +9,12 @@
 .footerCon {
   grid-area: footer;
 }
+
+.content {
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+}

@@ -4,6 +4,9 @@ Keep planning project, left off creating DOM elements for new projects. Then sta
 
 There are more webpack installls you code add like '--watch' and a dev server should you want to try those features.
 
+Next:
+Get the general Structure of the page layout set then move onto project creation.
+
 Task 1:
 Add event listener to 'modules/events.js' to handle the input of a projects name and output that input into the 'projectNameCon' div. This should event should also call the 'makeProjectContent' factory function so that an object is created for that project. The object will contain the title of the project to start.
 

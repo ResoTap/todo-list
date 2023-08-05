@@ -4,6 +4,7 @@ import {
   makeProjectContent,
   makeFooter,
 } from "./modules/projects-view";
+import "./style.css";
 
 makeHeader();
 makeProjectContent();
