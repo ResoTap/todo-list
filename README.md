@@ -1,6 +1,6 @@
 # todo-list
 
-Keep planning project, left off creating DOM elements for new projects. Then start writing some code.
+Here we go!
 
 Next:
 Get the general Structure of the page layout set then move onto project creation.
