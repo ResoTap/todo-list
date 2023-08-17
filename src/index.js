@@ -5,6 +5,7 @@ import {
   makeFooter,
 } from "./modules/projects-view";
 import "./style.css";
+import "normalize.css";
 
 makeHeader();
 makeProjectContent();
