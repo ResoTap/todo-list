@@ -12,7 +12,8 @@ import "normalize.css";
 makeHeader();
 makeProjectContent();
 makeNewProjectEvent();
+deleteProjectEvent();
 makeFooter();
-delete
+deleteProjectEvent();
 
 console.log("hola");

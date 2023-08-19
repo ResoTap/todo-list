@@ -7,15 +7,15 @@ export function makeNewProjectEvent() {
 };
 
 export function deleteProjectEvent() {
-    const projectDOMElements = makeNewProject();
-    const deleteButtons = projectDOMElements.querySelectorAll('.deleteBtn');
-    
-    deleteButtons.forEach(deleteBtn => {
+    const projects = document.querySelectorAll('.projectCon');
+  
+    projects.forEach(project => {
+      const deleteBtn = project.querySelector('.deleteBtn');
+  
+      if (deleteBtn) {
         deleteBtn.addEventListener('click', () => {
-            const projectCon = deleteBtn.closest('#projectCon');
-            if (projectCon) {
-                projectCon.remove();
-            }
-        })
-    })
-}
+          project.remove();
+        });
+      }
+    });
+  }

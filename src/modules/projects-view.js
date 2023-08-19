@@ -62,7 +62,7 @@ function makeNewProject() {
   const completeBtn = document.createElement("button");
   const deleteBtn = document.createElement("button");
 
-  projectCon.id = "projectCon";
+  projectCon.classList.add("projectCon");
   projectNameCon.classList.add("projectNameCon");
   projectInputBox.classList.add("projectInputBox");
   displayTaskCon.classList.add("displayTaskBox");
