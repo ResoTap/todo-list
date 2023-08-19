@@ -5,7 +5,7 @@ import {
   makeFooter,
   makeNewProject,
 } from "./modules/projects-view";
-import { makeNewProjectEvent } from "./modules/events";
+import { makeNewProjectEvent, deleteProjectEvent } from "./modules/events";
 import "./style.css";
 import "normalize.css";
 
@@ -13,5 +13,6 @@ makeHeader();
 makeProjectContent();
 makeNewProjectEvent();
 makeFooter();
+delete
 
 console.log("hola");
