@@ -6,7 +6,7 @@ function makeHeader() {
   const header = document.createElement("div");
   const projectBtnCon = document.createElement('div');
   const projectBtn = document.createElement("button");
-  const titleCon = document.createElement('titleCon');
+  const titleCon = document.createElement('div');
   const todoTitle = document.createElement("div");
   const rightHeaderCon = document.createElement('div');
 
@@ -27,7 +27,7 @@ function makeHeader() {
   header.appendChild(rightHeaderCon);
 
   projectBtn.textContent = "New Project";
-  todoTitle.innerHTML = "<h1>Todo List</h1>";
+  todoTitle.innerHTML = "<h2>Todo List</h2>";
 }
 
 const projectContentCon = document.createElement("div");
