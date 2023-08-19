@@ -2,6 +2,9 @@
 
 Here we go!
 
+Next:
+Figure out why the 'New Project' button stopped adding new projects when clicked and how to fix the delete button.
+
 Task 1:
 Add event listener to 'modules/events.js' to handle the input of a projects name and output that input into the 'projectNameCon' div. This event should also call the 'makeProjectContent' factory function so that an object is created for that project. The object will contain the title of the project to start.
 
