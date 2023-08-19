@@ -8,18 +8,23 @@ function makeHeader() {
   const projectBtn = document.createElement("button");
   const titleCon = document.createElement('titleCon');
   const todoTitle = document.createElement("div");
+  const rightHeaderCon = document.createElement('div');
 
   header.classList.add("header");
   projectBtnCon.classList.add('projectBtnCon');
   projectBtn.classList.add("projectBtn");
+  titleCon.classList.add('titleCon');
   todoTitle.classList.add("todoTitle");
+  rightHeaderCon.classList.add('rightHeaderCon');
   content.id = "content";
 
   document.body.appendChild(content);
   content.appendChild(header);
   header.appendChild(projectBtnCon)
   projectBtnCon.appendChild(projectBtn);
-  header.appendChild(todoTitle);
+  header.appendChild(titleCon);
+  titleCon.appendChild(todoTitle);
+  header.appendChild(rightHeaderCon);
 
   projectBtn.textContent = "New Project";
   todoTitle.innerHTML = "<h1>Todo List</h1>";
