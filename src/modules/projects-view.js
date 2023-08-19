@@ -1,11 +1,11 @@
 export { makeHeader, makeProjectContent, makeFooter, makeNewProject };
 
 export const content = document.createElement("div");
+export const projectBtn = document.createElement("button");
 
 function makeHeader() {
   const header = document.createElement("div");
   const projectBtnCon = document.createElement('div');
-  const projectBtn = document.createElement("button");
   const titleCon = document.createElement('div');
   const todoTitle = document.createElement("div");
   const rightHeaderCon = document.createElement('div');

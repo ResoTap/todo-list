@@ -5,13 +5,13 @@ import {
   makeFooter,
   makeNewProject,
 } from "./modules/projects-view";
+import { newProjectEvent } from "./modules/events";
 import "./style.css";
 import "normalize.css";
 
 makeHeader();
 makeProjectContent();
-makeNewProject();
-makeNewProject();
+newProjectEvent();
 makeFooter();
 
 console.log("hola");
