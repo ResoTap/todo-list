@@ -4,21 +4,25 @@ export const content = document.createElement("div");
 
 function makeHeader() {
   const header = document.createElement("div");
+  const projectBtnCon = document.createElement('div');
   const projectBtn = document.createElement("button");
+  const titleCon = document.createElement('titleCon');
   const todoTitle = document.createElement("div");
 
   header.classList.add("header");
+  projectBtnCon.classList.add('projectBtnCon');
   projectBtn.classList.add("projectBtn");
   todoTitle.classList.add("todoTitle");
   content.id = "content";
 
   document.body.appendChild(content);
   content.appendChild(header);
-  header.appendChild(projectBtn);
+  header.appendChild(projectBtnCon)
+  projectBtnCon.appendChild(projectBtn);
   header.appendChild(todoTitle);
 
   projectBtn.textContent = "New Project";
-  todoTitle.textContent = "Todo List";
+  todoTitle.innerHTML = "<h1>Todo List</h1>";
 }
 
 const projectContentCon = document.createElement("div");

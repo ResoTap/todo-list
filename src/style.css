@@ -13,7 +13,7 @@ body, html {
   justify-content: space-evenly;
   background-color: #333;
   color: white;
-  padding: 10px;
+  padding: 5px;
 }
 
 .projectCon {
@@ -22,6 +22,7 @@ body, html {
   padding: 5px;
   display: flex;
   justify-content: space-between;
+  margin: .75rem;
 }
 
 .projectContentCon {
@@ -29,4 +30,8 @@ body, html {
   display: flex;
   flex: 1;
   flex-direction: column;
+}
+
+button {
+  border-radius: 10px;
 }

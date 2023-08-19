@@ -11,6 +11,7 @@ import "normalize.css";
 makeHeader();
 makeProjectContent();
 makeNewProject();
+makeNewProject();
 makeFooter();
 
 console.log("hola");
