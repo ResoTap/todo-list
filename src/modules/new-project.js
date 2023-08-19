@@ -12,5 +12,6 @@ function makeProject(title) {
     },
   };
 }
+
 console.log(makeProject("poop"));
 console.log(makeProject("pee"));
