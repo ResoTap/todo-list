@@ -51,7 +51,7 @@ body, html {
   margin: .75rem;
 }
 
-.projectContentCon {
+#projectContentCon {
   padding-left: 2em;
   padding-right: 2em;
   display: flex;

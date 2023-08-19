@@ -14,6 +14,5 @@ makeProjectContent();
 makeNewProjectEvent();
 deleteProjectEvent();
 makeFooter();
-deleteProjectEvent();
 
 console.log("hola");

@@ -33,7 +33,9 @@ function makeHeader() {
 const projectContentCon = document.createElement("div");
 
 function makeProjectContent() {
-  projectContentCon.classList.add("projectContentCon");
+  const projectContentCon = document.createElement("div");
+
+  projectContentCon.id = "projectContentCon";
 
   content.appendChild(projectContentCon);
 }

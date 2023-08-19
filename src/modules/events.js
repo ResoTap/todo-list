@@ -1,4 +1,4 @@
-import { makeNewProject, projectBtn } from "./projects-view";
+import { makeNewProject, projectBtn, projectContentCon } from "./projects-view";
 
 export function makeNewProjectEvent() {
     projectBtn.addEventListener('click', () => {
@@ -7,15 +7,14 @@ export function makeNewProjectEvent() {
 };
 
 export function deleteProjectEvent() {
-    const projects = document.querySelectorAll('.projectCon');
+    const projectContentCon = document.getElementById("projectContentCon");
   
-    projects.forEach(project => {
-      const deleteBtn = project.querySelector('.deleteBtn');
-  
-      if (deleteBtn) {
-        deleteBtn.addEventListener('click', () => {
-          project.remove();
-        });
+    projectContentCon.addEventListener('click', event => {
+      if (event.target.classList.contains('deleteBtn')) {
+        const projectCon = event.target.closest('.projectCon');
+        if (projectCon) {
+          projectCon.remove();
+        }
       }
     });
   }
