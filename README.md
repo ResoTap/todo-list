@@ -3,7 +3,7 @@
 Here we go!
 
 Task 1:
-Add event listener to 'modules/events.js' to handle the input of a projects name and output that input into the 'projectNameCon' div. This should event should also call the 'makeProjectContent' factory function so that an object is created for that project. The object will contain the title of the project to start.
+Add event listener to 'modules/events.js' to handle the input of a projects name and output that input into the 'projectNameCon' div. This event should also call the 'makeProjectContent' factory function so that an object is created for that project. The object will contain the title of the project to start.
 
 Task 2:
 Add event listener to collapsed/default view of the 'projectCon' so that when clicked it expands to show all the tasks contained within it, as well as a button to create new tasks. Each individual task will have the option to mark as complete or delete when the 'editBtn' is toggled.
