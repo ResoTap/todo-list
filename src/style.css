@@ -42,7 +42,7 @@ body, html {
   text-align: center;
 }
 
-.projectCon {
+#projectCon {
   border: 2px gray solid;
   border-radius: 10px;
   padding: .4rem;

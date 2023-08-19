@@ -62,7 +62,7 @@ function makeNewProject() {
   const completeBtn = document.createElement("button");
   const deleteBtn = document.createElement("button");
 
-  projectCon.classList.add("projectCon");
+  projectCon.id = "projectCon";
   projectNameCon.classList.add("projectNameCon");
   projectInputBox.classList.add("projectInputBox");
   displayTaskCon.classList.add("displayTaskBox");
@@ -86,4 +86,6 @@ function makeNewProject() {
   prioBtn.textContent = "Priority";
   completeBtn.textContent = "Complete";
   deleteBtn.textContent = "Delete";
+
+  return { projectCon };
 }
