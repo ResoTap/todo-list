@@ -84,6 +84,9 @@ function makeNewProject() {
   buttonCon.appendChild(completeBtn);
   buttonCon.appendChild(deleteBtn);
 
+  projectInputField.type = 'text';
+  projectInputField.placeholder = 'Project name...'
+
   editBtn.textContent = "Edit";
   prioBtn.textContent = "Priority";
   completeBtn.textContent = "Complete";
