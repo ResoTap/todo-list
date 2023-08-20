@@ -56,7 +56,7 @@ function makeFooter() {
 function makeNewProject() {
   const projectCon = document.createElement("div");
   const projectNameCon = document.createElement("div");
-  const projectInputBox = document.createElement("input");
+  const projectInputField = document.createElement("input");
   const displayTaskCon = document.createElement("div");
   const buttonCon = document.createElement("div");
   const editBtn = document.createElement("button");
@@ -66,7 +66,7 @@ function makeNewProject() {
 
   projectCon.classList.add("projectCon");
   projectNameCon.classList.add("projectNameCon");
-  projectInputBox.classList.add("projectInputBox");
+  projectInputField.classList.add("projectInputField");
   displayTaskCon.classList.add("displayTaskBox");
   buttonCon.classList.add("buttonCon");
   editBtn.classList.add("editBtn");
@@ -76,7 +76,7 @@ function makeNewProject() {
 
   projectContentCon.appendChild(projectCon);
   projectCon.appendChild(projectNameCon);
-  projectNameCon.appendChild(projectInputBox);
+  projectNameCon.appendChild(projectInputField);
   projectCon.appendChild(displayTaskCon);
   projectCon.appendChild(buttonCon);
   buttonCon.appendChild(editBtn);
