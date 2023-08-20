@@ -1,4 +1,5 @@
-export { makeProject, projectsArray };
+import { makeNewProject } from "./projects-view";
+export { makeProject, projectsArray, displayUserInput };
 
 const projectsArray = [];
 
@@ -11,6 +12,14 @@ function makeProject(title) {
       tasks.push(task);
     },
   };
+}
+
+function displayUserInput(event) {
+  const target = event.target;
+  if (target.tagName === 'INPUT') {
+    const inputValue = target.value;
+    projectOutputField.textContent = inputValue;
+  }
 }
 
 console.log(makeProject("poop"));

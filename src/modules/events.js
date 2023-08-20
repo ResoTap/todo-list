@@ -1,4 +1,5 @@
-import { makeNewProject, projectBtn, projectContentCon } from "./projects-view";
+import { makeNewProject, projectBtn } from "./projects-view";
+import { displayUserInput } from "./new-project"
 
 export function makeNewProjectEvent() {
     projectBtn.addEventListener('click', () => {
@@ -17,4 +18,17 @@ export function deleteProjectEvent() {
         }
       }
     });
-  }
+}
+
+export function addProjectNameEvent() {
+  const projectContentCon = document.getElementById("projectContentCon");
+  
+  projectContentCon.addEventListener('input', event => {
+    if (event.target.classList.contains('projectInputField')) {
+      const projectCon = event.target.closest('projectCon');
+      if (projectCon) {
+        displayUserInput(event);
+      }
+    }
+  })
+}

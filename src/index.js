@@ -5,13 +5,14 @@ import {
   makeFooter,
   makeNewProject,
 } from "./modules/projects-view";
-import { makeNewProjectEvent, deleteProjectEvent } from "./modules/events";
+import { makeNewProjectEvent, deleteProjectEvent, addProjectNameEvent } from "./modules/events";
 import "./style.css";
 import "normalize.css";
 
 makeHeader();
 makeProjectContent();
 makeNewProjectEvent();
+addProjectNameEvent();
 deleteProjectEvent();
 makeFooter();
 
