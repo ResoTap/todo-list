@@ -14,9 +14,12 @@ function makeProject(title) {
   };
 }
 
+const { projectCon } = makeNewProject();
+
 function displayUserInput(event) {
   const target = event.target;
   if (target.tagName === 'INPUT') {
+    const projectOutputField = projectCon.querySelector('.projectOutputField');
     const inputValue = target.value;
     projectOutputField.textContent = inputValue;
   }

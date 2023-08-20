@@ -3,7 +3,6 @@ import {
   makeHeader,
   makeProjectContent,
   makeFooter,
-  makeNewProject,
 } from "./modules/projects-view";
 import { makeNewProjectEvent, deleteProjectEvent, addProjectNameEvent } from "./modules/events";
 import "./style.css";
