@@ -42,7 +42,7 @@ function makeProjectContent() {
 
 function makeFooter() {
   const footerCon = document.createElement("div");
-  const footerContent = document.createElement("div");
+  const footerContent = document.createElement("a");
 
   footerCon.classList.add("footerCon");
   footerContent.classList.add("footerContent");
@@ -50,7 +50,9 @@ function makeFooter() {
   content.appendChild(footerCon);
   footerCon.appendChild(footerContent);
 
-  footerContent.textContent = "https://github.com/ResoTap";
+  footerContent.href = 'https://github.com/ResoTap';
+  footerContent.textContent = 'My GitHub Page';
+  footerContent.target = '_blank';
 }
 
 function makeNewProject() {
