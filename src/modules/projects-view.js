@@ -57,6 +57,7 @@ function makeNewProject() {
   const projectCon = document.createElement("div");
   const projectNameCon = document.createElement("div");
   const projectInputField = document.createElement("input");
+  const projectOutputField = document.createElement('div');
   const displayTaskCon = document.createElement("div");
   const buttonCon = document.createElement("div");
   const editBtn = document.createElement("button");
@@ -67,6 +68,7 @@ function makeNewProject() {
   projectCon.classList.add("projectCon");
   projectNameCon.classList.add("projectNameCon");
   projectInputField.classList.add("projectInputField");
+  projectOutputField.classList.add("projectOutputField");
   displayTaskCon.classList.add("displayTaskBox");
   buttonCon.classList.add("buttonCon");
   editBtn.classList.add("editBtn");
@@ -77,6 +79,7 @@ function makeNewProject() {
   projectContentCon.appendChild(projectCon);
   projectCon.appendChild(projectNameCon);
   projectNameCon.appendChild(projectInputField);
+  projectNameCon.appendChild(projectOutputField);
   projectCon.appendChild(displayTaskCon);
   projectCon.appendChild(buttonCon);
   buttonCon.appendChild(editBtn);
