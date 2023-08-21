@@ -20,8 +20,6 @@ export function deleteProjectEvent() {
     });
 }
 
-const { projectCon } = makeNewProject();
-
 export function addProjectNameEvent() {
   const projectContentCon = document.getElementById("projectContentCon");
   
