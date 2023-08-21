@@ -30,5 +30,6 @@ export function addProjectNameEvent() {
         displayUserInput(event);
       }
     }
+    
   })
 }
